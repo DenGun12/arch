@@ -1,0 +1,13 @@
+# ƒелаем все окна с типом "диалог" плавающими и центрируем их
+windowrule = float, title:^(Open File)$
+windowrule = center, title:^(Open File)$
+
+windowrule = float, title:^(Save File)$
+windowrule = center, title:^(Save File)$
+
+windowrule = float, title:^(Select a File)$
+windowrule = center, title:^(Select a File)$
+
+# ƒл€ Chromium и GTK-приложений часто срабатывает это:
+windowrule = float, title:^(Open)$
+windowrule = center, title:^(Open)$
